@@ -1,0 +1,46 @@
+.our-projects {
+	margin-top: 105px;
+	position: relative;
+}
+
+.img-bg-first, .img-bg-second, .img-bg-third, .img-bg-forth {
+	background-repeat: no-repeat;
+	max-width: 100%;
+	min-height: 355px;
+	@include images-hover;
+}
+
+.img-bg-first {
+	background-image: url("../img/img3.png");
+	background-position: center;
+	background-size: 150%;
+}
+
+.img-bg-second {
+	background-image: url("../img/img4.png");
+	background-position: center;
+	background-size: 150%;
+}
+
+.img-bg-third {
+	background-image: url("../img/img5.png");
+	background-position: 70% 30%;
+	background-size: 100%;
+}
+
+.img-bg-forth {
+	background-image: url("../img/img6.png");
+	background-size: 185%;
+}
+
+.title-mini-on-img {
+	font-family: "Acrom ExtraBold";
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	margin: 30px 15px;
+	padding: 100px 0 0 38px;
+	line-height: 1.1;
+}

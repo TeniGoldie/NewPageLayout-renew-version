@@ -1,0 +1,66 @@
+.owl-carousel{
+  margin-top: 150px;
+
+ 	h2{
+	font-family: "Acrom ExtraBold";
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: white;
+	display: block;
+	margin-left: 25px;
+	margin-top: 40px;
+
+	}
+
+	p {
+	position: absolute;
+	top: -4px;
+  left: 37px;
+  margin-left: 10px;
+	}
+}
+
+.green {
+	color: #bed62f;
+	text-decoration: none;
+}
+
+.heading {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+.fa-long-arrow-right, .fa-long-arrow-left {
+	margin: 5px;
+	color: #b5cac9;
+}
+
+.owl-nav {
+	position: absolute;
+	top: 7px;
+  left: 226px;
+}
+
+.owl-prev {
+	position: absolute;
+	top: -13px;
+	left: -205px;
+}
+
+.owl-next {
+	position: absolute;
+  left: -140px;
+  top: -13px;
+}
+
+.owl-item:before {
+	content: "";
+	height: 100%;
+	width: 5px;
+	background-color: #8dc63f;
+	position: absolute;
+  top: 0;
+  left: 2px;
+}

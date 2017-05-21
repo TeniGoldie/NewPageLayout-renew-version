@@ -1,0 +1,27 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "buttons";
+@import "contact_form";
+@import "header_main";
+@import "header_nav";
+@import "header_top";
+@import "footer_main";
+@import "footer_bottom";
+@import "section_news";
+@import "section_numbers";
+@import "section_our-projects";
+@import "section_who-we-are";
+
+
+section h3, footer h3 {
+	font-size: 35px;
+	color: $darkGrey;
+	font-weight: bold;
+	font-family: "Acrom ExtraBold";
+	margin: 50px 0 50px 0;
+	@include squares;
+}
+
+
+

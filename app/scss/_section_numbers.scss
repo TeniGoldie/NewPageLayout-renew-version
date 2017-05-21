@@ -1,0 +1,25 @@
+.numbers {
+	background-position: (50% 30%!important);
+	background-size: 150%;
+	background-repeat: no-repeat;
+	margin: 109px 0 0 0 ;
+
+ 	h2 {
+		display: block;
+		text-align: center;
+		font-size: 55px;
+		font-weight: bold;
+		margin: 100px 0 45px;
+		color: $offWhite;
+		font-family: "Acrom ExtraBold";
+	}
+
+	p {
+		text-align: center;
+		font-size: 18px;
+		color: $offWhite;
+		margin-bottom: 100px;
+		font-family: "Roboto Light";
+	}
+}
+

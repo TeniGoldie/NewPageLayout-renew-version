@@ -1,0 +1,34 @@
+.footer-main {
+	background-color: #f3fafa;
+	padding-top: 50px;
+}
+
+.address {
+	display: block;
+	margin: 20px;
+	position: relative;
+}
+
+.location:before{
+	content: '\f041';
+	top: -4px;
+	left: -50px;
+	font-size: 31px;	
+	@include icons;
+}
+
+.mobile:before {
+	content: '\f10b';
+	top: -5px;
+	left: -50px;
+	font-size: 33px;	
+	@include icons;
+}
+
+.envelop:before {
+	content: '\f003';
+	top: -2px;
+	left: -51px;
+	font-size: 18px;	
+	@include icons;
+}

@@ -1,0 +1,29 @@
+.nav-list { 	
+	li {
+		float:right;
+		display: inline-block;
+		margin: 0 10px;
+		font-size: 16px;
+	}
+	a {
+		color: $offWhite;
+		text-decoration: none;
+		padding: 0 10px;
+	}
+	li:last-child {
+		display: none;
+	}
+}
+
+.nav-list>li:nth-child(2), .nav-list>li:nth-child(3) {
+  padding-top: 15px;
+}
+
+.nav-list ul { 
+	@include clearFix;
+}
+
+.fa-search {
+	color: #bfd730;
+	margin-right: 30px;
+}

@@ -1,0 +1,30 @@
+header {
+	background: url("../img/img1.png") no-repeat;	
+	background-image: url("../img/img1.png");
+  background-repeat:   no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;
+	height: 640px;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	img{
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 80px;
+  height: 50px;
+	@include clearFix;
+	}
+	p {
+	font-size: 15px;
+	color: white;
+	display: block;
+	margin-left: 35px;
+	margin-top: 5px;
+	font-family: "Roboto Light";
+	font-variant: small-caps;
+	line-height: 1.1;
+	}
+}

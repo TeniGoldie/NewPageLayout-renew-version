@@ -1,0 +1,89 @@
+@mixin clearFix {
+	&:after{
+	content: '';
+  clear: both;
+  display: block;
+  }
+}
+
+@mixin news {
+	color: #b9b9b9;
+	line-height: 30px;
+	letter-spacing: 0.1px;
+	font-family: "Roboto Light";
+}
+
+@mixin images-hover{
+	&:hover {
+	transform: scale(1.05);
+	transition: 1s;
+	box-shadow: 0px 0px 25px 3px #cbcccc;
+	}
+}
+
+@mixin icons {
+	position: absolute;
+	font-family: 'FontAwesome';
+	color: #6db2ab;
+}
+
+@mixin social-icons {
+	color: #859997;
+	font-size: 25px;
+	position: relative;
+	display: inline-block;
+	font-family: 'FontAwesome';
+	margin: 15px 0px;
+}
+
+@mixin formHover{
+	&:hover {
+	border-bottom: (2px solid #439c92!important);
+	}
+}
+
+@mixin textareaHover{
+	&:hover {
+	border-bottom: (2px solid #439c92!important);
+	margin-bottom: 34px;
+	}
+}
+	
+@mixin buttonHover {
+	&:hover {
+	border: (1px solid #439c92!important);
+	margin: 29px 0;
+	}
+}
+
+@mixin contactForm {
+	width:(100%!important);
+	border-radius:(0px!important);
+	border-right:(none!important);
+	border-left:(none!important);
+	border-top:(none!important);
+	background-color:(#f3fafa!important);
+	color:(#d5dadb!important);
+  font-size:(10px!important);
+  box-shadow:(none!important);
+  border-bottom:(1px solid #989b9c!important);
+}
+
+@mixin squares {
+	&:before {
+	content: " ";
+	background-image: url("../img/rect.png");
+	position: absolute;
+	top: 23px;
+	left: -45px;
+	width: 40px;
+	height: 50px;
+	}
+}
+
+	
+		
+
+
+
+

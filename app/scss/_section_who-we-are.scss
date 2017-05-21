@@ -1,0 +1,26 @@
+.who-we-are {
+	margin-top: 50px;
+	position: relative;
+ 	.col-lg-4 {
+		float: right;
+	}
+	p {
+		line-height: 30px;
+		margin-right: 30px;
+	}
+}
+
+.whoweare-image {
+	height: 350px;
+	width: 350px;
+	overflow: hidden;
+	box-shadow: 1px 6px 30px 3px rgba(222,218,222,1);
+	img {
+		box-shadow: 5px #e9ecee;
+		background-size: cover;
+	  overflow: hidden;
+	  display: table-cell;
+	  vertical-align: middle;
+	}
+}
+
